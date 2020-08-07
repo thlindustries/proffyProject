@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6"
+    ],
+    "target": "es5",
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@shared/*": [
+        "shared/*"
+      ],
+      "@modules/*": [
+        "modules/*"
+      ],
+    },
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
